@@ -1,4 +1,4 @@
-Ansible Tower config needed
+# Ansible Tower config needed
 
 - Go to users and your username
 - then tokens
@@ -6,7 +6,7 @@ Ansible Tower config needed
 
 
 
-example Prometheus config
+# Example Prometheus config
 ```yaml
   - job_name: 'tower'
     metrics_path: /api/v2/metrics
