@@ -1,3 +1,10 @@
+Ansible Tower config needed
+
+-- Go to users and your username
+-- then tokens
+-- create token to use in below prometheus config
+
+
 
 example Prometheus config
 
@@ -10,4 +17,3 @@ example Prometheus config
     static_configs:
             - targets: 
               - #ansible_tower_url#
-
