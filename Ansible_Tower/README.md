@@ -1,8 +1,8 @@
 Ansible Tower config needed
 
--- Go to users and your username
--- then tokens
--- create token to use in below prometheus config
+- Go to users and your username
+- then tokens
+- create token to use in below prometheus config
 
 
 
