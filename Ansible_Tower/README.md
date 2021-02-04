@@ -7,7 +7,7 @@ Ansible Tower config needed
 
 
 example Prometheus config
-
+```yaml
   - job_name: 'tower'
     metrics_path: /api/v2/metrics
     scheme: https
@@ -17,3 +17,4 @@ example Prometheus config
     static_configs:
             - targets: 
               - #ansible_tower_url#
+```
