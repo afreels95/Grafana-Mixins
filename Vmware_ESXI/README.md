@@ -1,8 +1,8 @@
 
-using exporter from <https://github.com/devinotelecom/prometheus-vmware-exporter>
+# exporter from <https://github.com/devinotelecom/prometheus-vmware-exporter>
 
 
-example docker compose install of exporter
+# Example Docker-Compose Install of Exporter
 
 ```yaml
 vmware-esxi-exporter:
