@@ -4,6 +4,7 @@ using exporter from <https://github.com/devinotelecom/prometheus-vmware-exporter
 
 example docker compose install of exporter
 
+'''yaml
 vmware-esxi-exporter:
        image: devinotelecom/prometheus-vmware-exporter
        container_name: vmware-exporter
@@ -14,3 +15,4 @@ vmware-esxi-exporter:
          - "ESX_USERNAME=username"
          - "ESX_PASSWORD=password"
          - "ESX_LOG=debug"
+'''
