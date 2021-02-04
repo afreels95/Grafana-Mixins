@@ -1,5 +1,5 @@
 
-# exporter from <https://github.com/devinotelecom/prometheus-vmware-exporter>
+# Prometheus Exporter <https://github.com/devinotelecom/prometheus-vmware-exporter>
 
 
 # Example Docker-Compose Install of Exporter
